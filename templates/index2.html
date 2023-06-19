@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <link rel="shortcut icon" type="x-icon" href="../static/icon.svg.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Hind:wght@600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="../static/login.css">
+     <title>Login</title>
+</head>
+<body>
+     <main>
+          <div class="form-box">
+               <div class="form-value">
+                    <form action="/pass" method="get" >
+                         <h2>sing up</h2>
+                              <div class="inputbox">
+                                   <ion-icon name="person-outline"></ion-icon>
+                                   <input name="user_inserte" type="text"  required>
+                                   <label for="">User</label>
+
+                              </div>
+                              <div class="inputbox">
+                                   <ion-icon name="mail-outline"></ion-icon>
+                                   <input name="mail" type="email" required>
+                                   <label for="password">Email</label>
+                              </div>
+                              <div class="inputbox">
+                                <ion-icon name="phone-portrait-outline"></ion-icon>
+                                <input name="phone" type="tel" required>
+                                <label for="password">Phone</label>
+                           </div>
+                              
+                              <div class="inputbox">
+                                <ion-icon name="lock-closed-outline"></ion-icon>
+                                <input name="password" type="password"  required>
+                                <label for="">Password</label>
+
+                           </div>
+                           <div class="inputbox">
+                                <ion-icon name="lock-closed-outline"></ion-icon>
+                                <input name="confim-Password" type="password"  required>
+                                <label for="">confim-Password</label>
+
+                           </div>
+                              <button type="submit" >sign up</button>
+                              <div class="register">
+                                   <p>if have a account ?
+                                        &nbsp;
+                                        <a href="/">login</a>
+                                   </p>
+                              </div>
+                    </form>
+               </div>
+          </div>
+     </main>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
