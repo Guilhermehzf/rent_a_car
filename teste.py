@@ -1,6 +1,6 @@
 from utils import SQL
 
-sql = SQL('root', 'Gatitcha1', 'guilherme')
+sql = SQL('root', 'SENHA', 'DB')
 cmd = "SELECT * FROM guilherme.login ;"
 cs = sql.consultar(cmd, [])
 result = cs.fetchone()
